@@ -9,5 +9,5 @@ jobs:
 
     steps:
     - name: 显示环境变量
-      run: echo ${{env.VERSION +1}}
+      run: echo env.VERSION +1
         
