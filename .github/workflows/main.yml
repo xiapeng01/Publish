@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      VERSION: ${{vars.Version}} 
+      VERSION: ${{vars.Version + 1}} 
 
     steps:
     - name: 显示环境变量
