@@ -1,0 +1,13 @@
+name: Test
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${env.Version} 
+
+    steps:
+    - name: 显示环境变量
+      run: echo $VERSION
+        
